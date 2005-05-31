@@ -1,0 +1,7 @@
+env = Environment()
+env['CPPPATH'] = '../common'
+env['LIBS'] = ['qutils', 'm']
+env['LIBPATH'] = '../common'
+
+env.Program('bspinfo', 'bspinfo.c')
+
