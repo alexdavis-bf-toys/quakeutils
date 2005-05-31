@@ -1,0 +1,8 @@
+env = Environment()
+env['CPPPATH'] = '../common'
+env['LIBS'] = ['qutils', 'm']
+env['LIBPATH'] = '../common'
+
+files = Split('qlumpy.c  quakegrb.c')
+env.Program('qlumpy', files)
+

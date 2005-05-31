@@ -5,6 +5,8 @@ SConscript(['common/SConscript',
 						'bspinfo/SConscript',
 						'qfiles/SConscript',
 						'qcc/SConscript',
+						'texmake/SConscript',
+#						'qlumpy/SConscript',
 #						'sprgen/SConscript',
 #						'modelgen/SConscript',
 ])
