@@ -1,0 +1,297 @@
+In file included from region.c:3:
+bsp5.h:4:20: cmdlib.h: No such file or directory
+bsp5.h:5:21: mathlib.h: No such file or directory
+bsp5.h:6:21: bspfile.h: No such file or directory
+In file included from region.c:3:
+bsp5.h:10: error: parse error before "vec3_t"
+bsp5.h:10: warning: no semicolon at end of struct or union
+bsp5.h:11: warning: data definition has no type or storage class
+bsp5.h:13: error: parse error before '}' token
+bsp5.h:13: warning: data definition has no type or storage class
+In file included from bsp5.h:16,
+                 from region.c:3:
+map.h:7: error: parse error before "plane_t"
+map.h:7: warning: no semicolon at end of struct or union
+map.h:9: error: parse error before '}' token
+map.h:9: warning: data definition has no type or storage class
+map.h:14: error: parse error before "mface_t"
+map.h:14: warning: no semicolon at end of struct or union
+map.h:15: warning: data definition has no type or storage class
+map.h:26: error: parse error before "vec3_t"
+map.h:26: warning: no semicolon at end of struct or union
+map.h:27: warning: data definition has no type or storage class
+map.h:29: error: parse error before '}' token
+map.h:29: warning: data definition has no type or storage class
+map.h:32: error: parse error before "mapbrushes"
+map.h:32: error: `MAX_MAP_BRUSHES' undeclared here (not in a function)
+map.h:32: warning: data definition has no type or storage class
+map.h:35: error: parse error before "entities"
+map.h:35: error: `MAX_MAP_ENTITIES' undeclared here (not in a function)
+map.h:35: warning: data definition has no type or storage class
+map.h:38: error: `MAX_MAP_TEXINFO' undeclared here (not in a function)
+map.h:44: error: parse error before '*' token
+map.h:45: error: parse error before '*' token
+map.h:46: error: parse error before '*' token
+map.h:47: error: parse error before '*' token
+map.h:48: error: parse error before '*' token
+In file included from region.c:3:
+bsp5.h:33: error: parse error before "vec3_t"
+bsp5.h:33: warning: no semicolon at end of struct or union
+bsp5.h:34: warning: data definition has no type or storage class
+bsp5.h:38: error: parse error before '*' token
+bsp5.h:38: error: parse error before '*' token
+bsp5.h:38: warning: data definition has no type or storage class
+bsp5.h:39: error: parse error before '*' token
+bsp5.h:40: error: parse error before '*' token
+bsp5.h:40: warning: data definition has no type or storage class
+bsp5.h:41: error: parse error before '*' token
+bsp5.h:42: error: parse error before '*' token
+bsp5.h:42: error: parse error before '*' token
+bsp5.h:42: warning: data definition has no type or storage class
+bsp5.h:43: error: parse error before '*' token
+bsp5.h:43: error: parse error before '*' token
+bsp5.h:43: warning: data definition has no type or storage class
+bsp5.h:44: error: parse error before '*' token
+bsp5.h:65: error: parse error before "vec3_t"
+bsp5.h:65: warning: no semicolon at end of struct or union
+bsp5.h:67: error: parse error before '}' token
+bsp5.h:67: warning: data definition has no type or storage class
+bsp5.h:76: error: parse error before "vec3_t"
+bsp5.h:76: warning: no semicolon at end of struct or union
+bsp5.h:77: warning: data definition has no type or storage class
+bsp5.h:79: error: parse error before '*' token
+bsp5.h:79: warning: data definition has no type or storage class
+bsp5.h:80: error: parse error before '}' token
+bsp5.h:80: warning: data definition has no type or storage class
+bsp5.h:90: error: parse error before "vec3_t"
+bsp5.h:90: warning: no semicolon at end of struct or union
+bsp5.h:98: error: parse error before '*' token
+bsp5.h:98: warning: data definition has no type or storage class
+bsp5.h:102: error: parse error before '*' token
+bsp5.h:102: warning: data definition has no type or storage class
+bsp5.h:107: error: parse error before '}' token
+bsp5.h:107: warning: data definition has no type or storage class
+bsp5.h:120: error: parse error before "vec3_t"
+bsp5.h:120: warning: no semicolon at end of struct or union
+bsp5.h:121: warning: data definition has no type or storage class
+bsp5.h:123: error: parse error before '}' token
+bsp5.h:123: warning: data definition has no type or storage class
+bsp5.h:127: error: parse error before "vec3_t"
+bsp5.h:127: warning: no semicolon at end of struct or union
+bsp5.h:128: warning: data definition has no type or storage class
+bsp5.h:129: error: parse error before '}' token
+bsp5.h:129: warning: data definition has no type or storage class
+bsp5.h:132: error: parse error before "planes"
+bsp5.h:132: error: `MAX_MAP_PLANES' undeclared here (not in a function)
+bsp5.h:132: warning: data definition has no type or storage class
+bsp5.h:134: error: parse error before '*' token
+bsp5.h:134: error: parse error before '*' token
+bsp5.h:134: warning: data definition has no type or storage class
+bsp5.h:135: error: parse error before "normal"
+bsp5.h:136: error: parse error before '*' token
+bsp5.h:143: error: parse error before '*' token
+bsp5.h:143: error: `MAX_MAP_PLANES' undeclared here (not in a function)
+bsp5.h:143: warning: data definition has no type or storage class
+bsp5.h:144: error: parse error before '*' token
+bsp5.h:144: warning: data definition has no type or storage class
+bsp5.h:146: error: parse error before '*' token
+bsp5.h:146: error: parse error before '*' token
+bsp5.h:146: warning: data definition has no type or storage class
+bsp5.h:147: error: parse error before '*' token
+bsp5.h:147: error: parse error before '*' token
+bsp5.h:147: warning: data definition has no type or storage class
+bsp5.h:148: error: parse error before '*' token
+bsp5.h:154: error: parse error before '*' token
+bsp5.h:155: error: parse error before '*' token
+bsp5.h:156: error: parse error before '*' token
+bsp5.h:157: error: parse error before '*' token
+bsp5.h:157: error: parse error before '*' token
+bsp5.h:157: warning: data definition has no type or storage class
+bsp5.h:163: error: parse error before '*' token
+bsp5.h:164: error: parse error before '*' token
+bsp5.h:164: error: parse error before '*' token
+bsp5.h:164: warning: data definition has no type or storage class
+bsp5.h:165: error: parse error before '*' token
+bsp5.h:165: error: parse error before '*' token
+bsp5.h:165: warning: data definition has no type or storage class
+bsp5.h:166: error: parse error before '*' token
+bsp5.h:174: error: parse error before '*' token
+bsp5.h:174: error: `MAX_MAP_EDGES' undeclared here (not in a function)
+bsp5.h:174: warning: data definition has no type or storage class
+bsp5.h:179: error: parse error before '*' token
+bsp5.h:181: error: parse error before '*' token
+bsp5.h:181: error: parse error before '*' token
+bsp5.h:181: warning: data definition has no type or storage class
+bsp5.h:183: error: parse error before '*' token
+bsp5.h:192: error: parse error before "node_t"
+bsp5.h:192: warning: no semicolon at end of struct or union
+bsp5.h:194: error: parse error before '*' token
+bsp5.h:194: warning: data definition has no type or storage class
+bsp5.h:195: error: parse error before '}' token
+bsp5.h:195: warning: data definition has no type or storage class
+bsp5.h:197: error: parse error before "outside_node"
+bsp5.h:197: warning: data definition has no type or storage class
+bsp5.h:199: error: parse error before '*' token
+bsp5.h:200: error: parse error before '*' token
+bsp5.h:201: error: parse error before '*' token
+bsp5.h:207: error: parse error before '*' token
+bsp5.h:213: error: parse error before '*' token
+bsp5.h:219: error: parse error before '*' token
+bsp5.h:220: error: parse error before '*' token
+bsp5.h:221: error: parse error before '*' token
+bsp5.h:224: error: parse error before '*' token
+bsp5.h:234: error: parse error before "v"
+bsp5.h:235: error: parse error before '*' token
+bsp5.h:240: error: parse error before "v"
+bsp5.h:244: error: parse error before '*' token
+bsp5.h:245: error: parse error before '*' token
+bsp5.h:246: error: parse error before '*' token
+bsp5.h:248: error: parse error before '*' token
+bsp5.h:249: error: parse error before "p1"
+bsp5.h:255: error: parse error before "FillOutside"
+bsp5.h:255: error: parse error before '*' token
+bsp5.h:255: warning: data definition has no type or storage class
+bsp5.h:259: error: parse error before "drawflag"
+bsp5.h:259: warning: data definition has no type or storage class
+bsp5.h:260: error: parse error before "nofill"
+bsp5.h:260: warning: data definition has no type or storage class
+bsp5.h:261: error: parse error before "notjunc"
+bsp5.h:261: warning: data definition has no type or storage class
+bsp5.h:262: error: parse error before "noclip"
+bsp5.h:262: warning: data definition has no type or storage class
+bsp5.h:263: error: parse error before "verbose"
+bsp5.h:263: warning: data definition has no type or storage class
+bsp5.h:269: error: parse error before '*' token
+bsp5.h:269: warning: data definition has no type or storage class
+bsp5.h:279: error: parse error before "worldmodel"
+bsp5.h:279: warning: data definition has no type or storage class
+bsp5.h:284: error: parse error before '*' token
+bsp5.h:284: warning: data definition has no type or storage class
+bsp5.h:285: error: parse error before '*' token
+bsp5.h:290: error: parse error before '*' token
+bsp5.h:290: warning: data definition has no type or storage class
+bsp5.h:291: error: parse error before '*' token
+bsp5.h:293: error: parse error before '*' token
+bsp5.h:293: warning: data definition has no type or storage class
+region.c:27: error: parse error before "region_mins"
+region.c:27: warning: data definition has no type or storage class
+region.c:29: error: parse error before "p"
+region.c: In function `AddPointToRegion':
+region.c:35: error: `p' undeclared (first use in this function)
+region.c:35: error: (Each undeclared identifier is reported only once
+region.c:35: error: for each function it appears in.)
+region.c:35: error: subscripted value is neither array nor pointer
+region.c:36: error: subscripted value is neither array nor pointer
+region.c:37: error: subscripted value is neither array nor pointer
+region.c:38: error: subscripted value is neither array nor pointer
+region.c: In function `ClearRegionSize':
+region.c:44: error: subscripted value is neither array nor pointer
+region.c:44: error: subscripted value is neither array nor pointer
+region.c:44: error: subscripted value is neither array nor pointer
+region.c:45: error: subscripted value is neither array nor pointer
+region.c:45: error: subscripted value is neither array nor pointer
+region.c:45: error: subscripted value is neither array nor pointer
+region.c: At top level:
+region.c:48: error: parse error before '*' token
+region.c: In function `AddFaceToRegionSize':
+region.c:52: error: `f' undeclared (first use in this function)
+region.c: At top level:
+region.c:61: error: parse error before "CanJoinFaces"
+region.c:61: error: parse error before '*' token
+region.c: In function `CanJoinFaces':
+region.c:63: error: `vec3_t' undeclared (first use in this function)
+region.c:63: error: parse error before "oldmins"
+region.c:66: error: `f2' undeclared (first use in this function)
+region.c:66: error: `f' undeclared (first use in this function)
+region.c:69: error: `false' undeclared (first use in this function)
+region.c:79: error: `TEX_SPECIAL' undeclared (first use in this function)
+region.c:81: error: `oldmins' undeclared (first use in this function)
+region.c:82: error: `oldmaxs' undeclared (first use in this function)
+region.c:86: error: subscripted value is neither array nor pointer
+region.c:86: error: subscripted value is neither array nor pointer
+region.c:96: error: `numsurfedges' undeclared (first use in this function)
+region.c:101: error: `true' undeclared (first use in this function)
+region.c: At top level:
+region.c:110: error: parse error before '*' token
+region.c: In function `RecursiveGrowRegion':
+region.c:113: error: `f2' undeclared (first use in this function)
+region.c:116: error: `f' undeclared (first use in this function)
+region.c:135: error: `NULL' undeclared (first use in this function)
+region.c:143: error: `r' undeclared (first use in this function)
+region.c:148: error: `numsurfedges' undeclared (first use in this function)
+region.c:148: error: `MAX_MAP_SURFEDGES' undeclared (first use in this function)
+region.c:150: error: `dsurfedges' undeclared (first use in this function)
+region.c: In function `PrintDface':
+region.c:159: error: `dface_t' undeclared (first use in this function)
+region.c:159: error: `df' undeclared (first use in this function)
+region.c:160: error: `dedge_t' undeclared (first use in this function)
+region.c:160: error: `e' undeclared (first use in this function)
+region.c:163: error: `dfaces' undeclared (first use in this function)
+region.c:166: error: `dsurfedges' undeclared (first use in this function)
+region.c:167: error: `dedges' undeclared (first use in this function)
+region.c: In function `FindVertexUse':
+region.c:178: error: `dface_t' undeclared (first use in this function)
+region.c:178: error: `df' undeclared (first use in this function)
+region.c:179: error: `dedge_t' undeclared (first use in this function)
+region.c:179: error: `e' undeclared (first use in this function)
+region.c:183: error: `dfaces' undeclared (first use in this function)
+region.c:186: error: `dsurfedges' undeclared (first use in this function)
+region.c:187: error: `dedges' undeclared (first use in this function)
+region.c: In function `FindEdgeUse':
+region.c:200: error: `dface_t' undeclared (first use in this function)
+region.c:200: error: `df' undeclared (first use in this function)
+region.c:204: error: `dfaces' undeclared (first use in this function)
+region.c:207: error: `dsurfedges' undeclared (first use in this function)
+region.c: At top level:
+region.c:225: error: `MAX_MAP_EDGES' undeclared here (not in a function)
+region.c: In function `HealEdges':
+region.c:229: error: `dface_t' undeclared (first use in this function)
+region.c:229: error: `df' undeclared (first use in this function)
+region.c:230: error: `dedge_t' undeclared (first use in this function)
+region.c:230: error: `ed' undeclared (first use in this function)
+region.c:230: error: `ed2' undeclared (first use in this function)
+region.c:231: error: `vec3_t' undeclared (first use in this function)
+region.c:231: error: parse error before "v1"
+region.c:232: error: `found' undeclared (first use in this function)
+region.c:240: error: `dedges' undeclared (first use in this function)
+region.c:242: error: `dvertexes' undeclared (first use in this function)
+region.c:242: error: `v1' undeclared (first use in this function)
+region.c:256: error: `v2' undeclared (first use in this function)
+region.c:268: error: `dfaces' undeclared (first use in this function)
+region.c:271: error: `dsurfedges' undeclared (first use in this function)
+region.c:298: error: `NULL' undeclared (first use in this function)
+region.c: At top level:
+region.c:308: error: `MAX_MAP_VERTS' undeclared here (not in a function)
+region.c: In function `RemoveColinearEdges':
+region.c:322: error: `numedges' undeclared (first use in this function)
+region.c:334: error: `dedges' undeclared (first use in this function)
+region.c:345: error: `numvertexes' undeclared (first use in this function)
+region.c: In function `CountRealNumbers':
+region.c:387: error: `dfaces' undeclared (first use in this function)
+region.c:391: error: `numedges' undeclared (first use in this function)
+region.c: At top level:
+region.c:405: error: parse error before '*' token
+region.c: In function `GrowNodeRegion_r':
+region.c:407: error: `dface_t' undeclared (first use in this function)
+region.c:407: error: `r' undeclared (first use in this function)
+region.c:408: error: `f' undeclared (first use in this function)
+region.c:411: error: `node' undeclared (first use in this function)
+region.c:423: error: `MAX_MAP_FACES' undeclared (first use in this function)
+region.c:426: error: `dfaces' undeclared (first use in this function)
+region.c:431: error: `MAXLIGHTMAPS' undeclared (first use in this function)
+region.c:442: error: `numsurfedges' undeclared (first use in this function)
+region.c:445: error: `MAX_MAP_SURFEDGES' undeclared (first use in this function)
+region.c:447: error: `dsurfedges' undeclared (first use in this function)
+region.c: At top level:
+region.c:468: error: parse error before '*' token
+region.c: In function `GrowNodeRegions':
+region.c:472: error: `headnode' undeclared (first use in this function)
+region.c: At top level:
+map.h:32: error: storage size of `mapbrushes' isn't known
+map.h:35: error: storage size of `entities' isn't known
+bsp5.h:132: error: storage size of `planes' isn't known
+bsp5.h:143: error: storage size of `validfaces' isn't known
+bsp5.h:174: error: storage size of `edgefaces' isn't known
+region.c:225: error: storage size of `edgemapping' isn't known
+region.c:308: error: storage size of `checkpoints' isn't known
+make: *** [region.o] Error 1
