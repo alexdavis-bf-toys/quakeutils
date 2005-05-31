@@ -1,5 +1,10 @@
 SConscript(['common/SConscript',
+						'light/SConscript',
 						'vis/SConscript',
 						'qbsp/SConscript',
-						'light/SConscript',
-						'bspinfo/SConscript'])
+						'bspinfo/SConscript',
+						'qfiles/SConscript',
+						'qcc/SConscript',
+#						'sprgen/SConscript',
+#						'modelgen/SConscript',
+])

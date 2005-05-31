@@ -3,6 +3,5 @@ env['CPPPATH'] = '../common'
 env['LIBS'] = ['qutils', 'm']
 env['LIBPATH'] = '../common'
 
-files = Split('threads.c entities.c light.c ltface.c trace.c')
-env.Program('light', files)
+env.Program('qfiles', 'qfiles.c')
 
