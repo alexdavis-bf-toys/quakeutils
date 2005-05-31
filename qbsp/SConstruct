@@ -1,0 +1,8 @@
+env = Environment()
+env['CPPPATH'] = '../common'
+env['LIBS'] = ['qutils', 'm']
+env['LIBPATH'] = '../common'
+
+files=['brush.c', 'csg4.c', 'map.c', 'merge.c', 'nodraw.c', 'outside.c', 'portals.c', 'qbsp.c', 'region.c', 'solidbsp.c', 'surfaces.c', 'tjunc.c', 'writebsp.c']
+env.Program('qbsp', files) 
+
