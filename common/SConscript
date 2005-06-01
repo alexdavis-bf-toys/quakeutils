@@ -1,7 +1,7 @@
 Import( 'env' )
 myenv=env.Copy()
 
-myenv['CCFLAGS'] = '-fno-common'
+myenv['CCFLAGS'] += ' -fno-common'
 
 myenv.StaticLibrary('wad', 'wadlib.c')
 myenv.StaticLibrary('scrip', 'scriplib.c')

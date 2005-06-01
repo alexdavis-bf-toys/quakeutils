@@ -1,5 +1,5 @@
 env = Environment()
-env['CCFLAGS'] = '-Wall'
+env['CCFLAGS'] = '-Wall -O2'
 Export('env')
 SConscript(['common/SConscript',
 						'light/SConscript',
