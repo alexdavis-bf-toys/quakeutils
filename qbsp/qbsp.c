@@ -994,7 +994,7 @@ int main (int argc, char **argv)
 	if (i != argc - 2 && i != argc - 1)
 		Error ("usage: qbsp [options] sourcefile [destfile]\noptions: -nojunc -nofill -threads[124] -draw -onlyents -verbose -proj <projectpath>");
 
-	SetQdirFromPath (argv[i]);
+	//SetQdirFromPath (argv[i]);
 
 //
 // let forked processes change name for ps status
