@@ -1,3 +1,5 @@
 -Converted build system to use scons
--Converted files to lowercase
+-Removed install.bat and win32 build files
+-Converted file names to lowercase
 -Converted files to unix format
+-Changed several main()'s to return int
