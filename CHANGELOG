@@ -3,3 +3,4 @@
 -Converted file names to lowercase
 -Converted files to unix format
 -Changed several main()'s to return int
+-Changed getwd() to getcwd()
