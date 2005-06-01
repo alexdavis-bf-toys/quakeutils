@@ -716,7 +716,7 @@ void PrintFunction (char *name)
 main
 ============
 */
-void main (int argc, char **argv)
+int main (int argc, char **argv)
 {
 	char	*src;
 	char	*src2;
@@ -805,4 +805,5 @@ void main (int argc, char **argv)
 
 	stop = I_FloatTime ();
 	printf ("%i seconds elapsed.\n", (int)(stop-start));
+	return 0;
 }
