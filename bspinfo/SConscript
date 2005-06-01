@@ -1,6 +1,6 @@
 env = Environment()
 env['CPPPATH'] = '../common'
-env['LIBS'] = ['qutils', 'm']
+env['LIBS'] = Split('qutils m bsp')
 env['LIBPATH'] = '../common'
 
 env.Program('bspinfo', 'bspinfo.c')

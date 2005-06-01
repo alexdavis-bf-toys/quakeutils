@@ -181,7 +181,7 @@ void CalcPalette (void)
 main
 ============
 */
-void main (int argc, char **argv)
+int main (int argc, char **argv)
 {
 	int		i;
 	char	filename[1024];
@@ -219,4 +219,5 @@ void main (int argc, char **argv)
 	printf ("output file: %s\n",filename);
 	CalcPalette ();
 	WriteLBMfile (filename, pic, 320, 200, palette);	
+	return 0;
 }

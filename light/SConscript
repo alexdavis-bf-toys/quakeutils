@@ -1,6 +1,6 @@
 env = Environment()
 env['CPPPATH'] = '../common'
-env['LIBS'] = ['qutils', 'm']
+env['LIBS'] = Split('qutils m bsp')
 env['LIBPATH'] = '../common'
 
 files = Split('threads.c entities.c light.c ltface.c trace.c')

@@ -1,4 +1,7 @@
 env = Environment()
 env['CCFLAGS'] = '-fno-common'
 
-env.StaticLibrary('qutils', Split('bspfile.c cmdlib.c lbmlib.c mathlib.c polylib.c threads.c trilib.c'))
+env.StaticLibrary('wad', 'wadlib.c')
+env.StaticLibrary('scrip', 'scriplib.c')
+env.StaticLibrary('bsp', 'bspfile.c')
+env.StaticLibrary('qutils', Split('cmdlib.c lbmlib.c mathlib.c polylib.c threads.c trilib.c'))

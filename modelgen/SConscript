@@ -1,6 +1,6 @@
 env = Environment()
 env['CPPPATH'] = '../common'
-env['LIBS'] = ['qutils', 'm']
+env['LIBS'] = Split('qutils m scrip')
 env['LIBPATH'] = '../common'
 
 env.Program('modelgen', 'modelgen.c')

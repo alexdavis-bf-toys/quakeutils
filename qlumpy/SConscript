@@ -1,6 +1,6 @@
 env = Environment()
 env['CPPPATH'] = '../common'
-env['LIBS'] = ['qutils', 'm']
+env['LIBS'] = Split('qutils scrip wad m')
 env['LIBPATH'] = '../common'
 
 files = Split('qlumpy.c  quakegrb.c')
