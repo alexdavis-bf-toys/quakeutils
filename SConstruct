@@ -18,4 +18,5 @@ SConscript(['common/SConscript',
 						'qlumpy/SConscript',
 						'sprgen/SConscript',
 						'modelgen/SConscript',
+						'wad/SConscript',
 ], 'env')
