@@ -425,14 +425,14 @@ FILE *SafeOpenRead (char *filename)
 void SafeRead (FILE *f, void *buffer, int count)
 {
 	if ( fread (buffer, 1, count, f) != (size_t)count)
-		Error ("File read failure");
+		Error ("SafeRead: File read failure. count: %d", count);
 }
 
 
 void SafeWrite (FILE *f, void *buffer, int count)
 {
 	if (fwrite (buffer, 1, count, f) != (size_t)count)
-		Error ("File read failure");
+		Error ("SafeWrite: File write failure. count: %d", count);
 }
 
 
