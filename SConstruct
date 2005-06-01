@@ -1,3 +1,6 @@
+env = Environment()
+env['CCFLAGS'] = '-Wall'
+Export('env')
 SConscript(['common/SConscript',
 						'light/SConscript',
 						'vis/SConscript',
@@ -9,4 +12,4 @@ SConscript(['common/SConscript',
 						'qlumpy/SConscript',
 						'sprgen/SConscript',
 						'modelgen/SConscript',
-])
+], 'env')

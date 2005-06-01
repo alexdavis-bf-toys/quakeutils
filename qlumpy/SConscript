@@ -1,8 +1,10 @@
-env = Environment()
-env['CPPPATH'] = '../common'
-env['LIBS'] = Split('qutils scrip wad m')
-env['LIBPATH'] = '../common'
+Import('env')
+myenv=env.Copy()
+
+myenv['CPPPATH'] = '../common'
+myenv['LIBS'] = Split('qutils scrip wad m')
+myenv['LIBPATH'] = '../common'
 
 files = Split('qlumpy.c  quakegrb.c')
-env.Program('qlumpy', files)
+myenv.Program('qlumpy', files)
 

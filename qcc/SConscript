@@ -1,8 +1,9 @@
-env = Environment()
-env['CPPPATH'] = '../common'
-env['LIBS'] = ['qutils', 'm']
-env['LIBPATH'] = '../common'
+Import('env')
+myenv=env.Copy()
+myenv['CPPPATH'] = '../common'
+myenv['LIBS'] = ['qutils', 'm']
+myenv['LIBPATH'] = '../common'
 
 files = Split('pr_comp.c  pr_lex.c  qcc.c')
-env.Program('qcc', files)
+myenv.Program('qcc', files)
 

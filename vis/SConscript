@@ -1,7 +1,8 @@
-env = Environment()
-env['CPPPATH'] = '../common'
-env['LIBS'] = Split('qutils m bsp')
-env['LIBPATH'] = '../common'
+Import('env')
+myenv=env.Copy()
 
-env.Program('vis', ['flow.c', 'soundpvs.c', 'vis.c'])  
+myenv['CPPPATH'] = '../common'
+myenv['LIBS'] = Split('qutils m bsp')
+myenv['LIBPATH'] = '../common'
 
+myenv.Program('vis', ['flow.c', 'soundpvs.c', 'vis.c'])  

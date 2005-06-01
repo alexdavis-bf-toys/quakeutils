@@ -1,7 +1,9 @@
-env = Environment()
-env['CPPPATH'] = '../common'
-env['LIBS'] = ['qutils', 'm']
-env['LIBPATH'] = '../common'
+Import('env')
+myenv=env.Copy()
 
-env.Program('qfiles', 'qfiles.c')
+myenv['CPPPATH'] = '../common'
+myenv['LIBS'] = ['qutils', 'm']
+myenv['LIBPATH'] = '../common'
+
+myenv.Program('qfiles', 'qfiles.c')
 
