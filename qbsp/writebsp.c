@@ -460,9 +460,11 @@ void WriteMiptex (void)
 			return;
 		}
 	}
-	
-	sprintf (fullpath, "%s/%s", gamedir, path);
 
+  sprintf (fullpath, "%s%s%s", gamedir, gamedir[0] ? "/" : "", path);
+	//	sprintf (fullpath, "%s/%s", gamedir, path);
+	
+	printf("%s", fullpath);
 	TEX_InitFromWad (fullpath);
 	
 	AddAnimatingTextures ();
