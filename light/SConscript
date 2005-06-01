@@ -1,4 +1,4 @@
-Import( 'env' )
+Import( 'env installPath' )
 myenv=env.Copy()
 
 myenv['CPPPATH'] = '../common'
@@ -6,5 +6,6 @@ myenv['LIBS'] = Split('qutils m bsp')
 myenv['LIBPATH'] = '../common'
 
 files = Split('threads.c entities.c light.c ltface.c trace.c')
-myenv.Program('light', files)
+light = myenv.Program('light', files)
 
+myenv.Install(installPath, light)

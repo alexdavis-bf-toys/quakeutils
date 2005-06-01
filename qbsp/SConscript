@@ -1,4 +1,4 @@
-Import('env')
+Import('env installPath')
 myenv=env.Copy()
 
 myenv['CPPPATH'] = '../common'
@@ -6,5 +6,5 @@ myenv['LIBS'] = Split('qutils m bsp')
 myenv['LIBPATH'] = '../common'
 
 files=['brush.c', 'csg4.c', 'map.c', 'merge.c', 'nodraw.c', 'outside.c', 'portals.c', 'qbsp.c', 'region.c', 'solidbsp.c', 'surfaces.c', 'tjunc.c', 'writebsp.c']
-myenv.Program('qbsp', files) 
-
+qbsp = myenv.Program('qbsp', files)
+myenv.Install(installPath, qbsp)

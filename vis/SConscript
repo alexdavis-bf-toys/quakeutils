@@ -1,8 +1,9 @@
-Import('env')
+Import('env installPath')
 myenv=env.Copy()
 
 myenv['CPPPATH'] = '../common'
 myenv['LIBS'] = Split('qutils m bsp')
 myenv['LIBPATH'] = '../common'
 
-myenv.Program('vis', ['flow.c', 'soundpvs.c', 'vis.c'])  
+vis = myenv.Program('vis', ['flow.c', 'soundpvs.c', 'vis.c'])  
+myenv.Install(installPath, vis)
