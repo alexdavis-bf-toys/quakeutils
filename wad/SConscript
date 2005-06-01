@@ -1,0 +1,10 @@
+Import( 'env installPath' )
+myenv=env.Copy()
+
+myenv['CPPPATH'] = Split('../common')
+myenv['LIBS'] = Split('qutils m c')
+myenv['LIBPATH'] = '../common'
+
+wad = myenv.Program('wad', Split('wad.c wadfile.c hash.c quakeio.c'))
+
+myenv.Install(installPath, wad)
