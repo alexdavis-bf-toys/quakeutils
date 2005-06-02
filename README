@@ -1,0 +1,7 @@
+The Quake utilties are a collection of small command line applications to help in Quake development.  
+
+The primary goal of this project is to keep the tools available for future use.  No new features/development is planed other then bug fixes and changes to keep it working on multiple platforms.  With this in mind the build system uses scons for cross platform building.
+
+Other then the wad directory all of the tools are from the official qutils package released by ID Software. 
+ 
+wad - provides information about wad files and the ability to extract them.

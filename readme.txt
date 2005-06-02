@@ -1,10 +1,9 @@
+This is the original readme.txt from the qutils package from ID Software.  See README for more up to date information.
+------
 
 This is the readme from our most recent licensed developer CD.  Not all of it is applicable to this source upload, because the map editor, source data, and game source code have not been made freely available (gotta have some reason to charge lots of $$$ for it...), but it is the best documentation I have.
 
 -- John Carmack
-
-
-
 
 Quake Development CD 9/4/96
 ---------------------------
